@@ -71,7 +71,8 @@ namespace PrimeNumbers_GUI
 
         private void AddNumberToTextBox(int num)
         {
-            numbersTextBox.AppendText(num + "\n");
+            numbersTextBox.AppendText(num.ToString());
+            numbersTextBox.AppendText(Environment.NewLine);
             progressBar1.Value = num;
         }
 
