@@ -3,12 +3,12 @@
     partial class MainForm
     {
         /// <summary>
-        /// Required designer variable.
+        ///  Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Clean up any resources being used.
+        ///  Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,8 +23,8 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -135,26 +135,24 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 203);
-            this.Controls.Add(this.cancelButton);
-            this.Controls.Add(this.pauseButton);
-            this.Controls.Add(this.startButton);
-            this.Controls.Add(this.numbersTextBox);
-            this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.endNumTextBox);
-            this.Controls.Add(this.startNumTextBox);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.MaximizeBox = false;
-            this.Name = "MainForm";
-            this.Text = "Prime Numbers";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(285, 203);
+            Controls.Add(this.cancelButton);
+            Controls.Add(this.pauseButton);
+            Controls.Add(this.startButton);
+            Controls.Add(this.numbersTextBox);
+            Controls.Add(this.progressBar1);
+            Controls.Add(this.endNumTextBox);
+            Controls.Add(this.startNumTextBox);
+            Controls.Add(this.label3);
+            Controls.Add(this.label2);
+            Controls.Add(this.label1);
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
+            Name = "MainForm";
+            Text = "Prime Numbers";
+            ResumeLayout(false);
         }
 
         #endregion
@@ -171,4 +169,3 @@
         private System.Windows.Forms.Button cancelButton;
     }
 }
-

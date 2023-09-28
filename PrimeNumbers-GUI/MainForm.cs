@@ -1,6 +1,3 @@
-﻿using System;
-using System.Windows.Forms;
-
 namespace PrimeNumbers_GUI
 {
     public partial class MainForm : Form
@@ -9,7 +6,7 @@ namespace PrimeNumbers_GUI
         {
             InitializeComponent();
         }
-        
+
         private void startButton_Click(object sender, EventArgs e)
         {
             // Find all prime numbers starting between the first and last numbers
@@ -23,7 +20,7 @@ namespace PrimeNumbers_GUI
             progressBar1.Maximum = lastNum;
             progressBar1.Visible = true;
             cancelButton.Enabled = true;
-            pauseButton.Enabled = true;            
+            pauseButton.Enabled = true;
             startNumTextBox.Enabled = false;
             endNumTextBox.Enabled = false;
 
@@ -58,12 +55,18 @@ namespace PrimeNumbers_GUI
         private bool IsPrime(int num)
         {
             if (num < 2)
+            {
                 return false;
+            }
 
             // Look for a number that evenly divides the num
             for (int i = 2; i <= num / 2; i++)
+            {
                 if (num % i == 0)
+                {
                     return false;
+                }
+            }
 
             // No divisors means the number is prime
             return true;
@@ -78,12 +81,12 @@ namespace PrimeNumbers_GUI
 
         private void pauseButton_Click(object sender, EventArgs e)
         {
-            // Pause or resume the current job 
+            // TODO: Pause or resume the current job 
         }
 
         private void cancelButton_Click(object sender, EventArgs e)
         {
-            // Cancel the work done in the for loop
+            // TODO: Cancel the work done in the for loop
         }
     }
 }
