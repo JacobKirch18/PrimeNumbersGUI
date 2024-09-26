@@ -22,6 +22,7 @@ namespace PrimeNumbers_GUI
             pauseButton.Enabled = true;
             startNumTextBox.Enabled = false;
             endNumTextBox.Enabled = false;
+            startButton.Enabled = false;
 
             UseWaitCursor = true;
 
@@ -45,6 +46,7 @@ namespace PrimeNumbers_GUI
                 progressBar1.Visible = false;
                 cancelButton.Enabled = false;
                 pauseButton.Enabled = false;
+                startButton.Enabled = true;
             }
         }
 
